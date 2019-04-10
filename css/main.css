@@ -1,0 +1,42 @@
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	padding: 0;
+    margin: 0;
+    background:url(../images/backgroud.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.desktop{
+	padding: 20px;
+	height: 95%;
+}
+.desktop .app{
+	width:80px;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+.column{
+	float: left;
+	display: block;
+    width: 90px;
+	height: 100%;
+	margin-right: 10px;
+}
+.folder{
+	height:75px;
+	background-size: 50px 50px;
+	background: url(../images/default_opened_folder.png) no-repeat center top;
+	background-size:contain
+}
+.folder.notes{
+	background: url(../images/Note_Book.ico) no-repeat center top;
+}
+.folder.resume{
+	background: url(../images/resume.ico) no-repeat center top;
+}
